@@ -1,0 +1,24 @@
+/* 
+color: rgb(181, 218, 224);   Celeste
+*/
+body {
+  min-width: 320px;
+}
+header {
+  background-color: rgb(181, 218, 224);
+  height: 3rem;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+/* CLASES */
+.logo {
+  height: inherit;
+}
+.titulo {
+  margin: 0px;
+}
