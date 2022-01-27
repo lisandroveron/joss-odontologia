@@ -20,7 +20,7 @@ header, footer{
 
 /* CLASES */
 .logo {
-  height: inherit;
+  height: 3rem;
 }
 .titulo,p {
   margin: 0px;
