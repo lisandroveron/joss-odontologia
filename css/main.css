@@ -16,19 +16,21 @@ main{
   /* border: 2px solid red; */
   background-color: white;
   width: 95%;
-  max-width: 1080px;
+  max-width: 2000px;
   margin: 5px auto;
 }
-header, footer,body{
-  background-color: rgb(181, 218, 224);
+footer{
   height: 3rem;
-  min-width: 400px;
+}
+header,footer,body{
+  background-color: rgb(181, 218, 224);
+  min-width: 420px;
+}
+header,.logo{
+  height: 6rem;
 }
 
 /* CLASES */
-.logo {
-  height: 3rem;
-}
 .titulo,p {
   margin: 0px;
 }
