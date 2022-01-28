@@ -1,11 +1,8 @@
-@media screen and (max-width: 360px){
-    body{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas: "header        header      header"
-                             "contenido     contenido   contenido"
-                             "sidebar       sidebar     sidebar"
-                             "footer        footer      footer";
+@media screen and (max-width: 400px){
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:    "contenido"
+                                "sidebar";
     }
 }

@@ -13,14 +13,16 @@ body {
   margin-right: auto;
 }
 main{
-  width: 90%;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  /* border: 2px solid red; */
+  background-color: white;
+  width: 95%;
+  max-width: 1080px;
+  margin: 5px auto;
 }
-header, footer{
+header, footer,body{
   background-color: rgb(181, 218, 224);
   height: 3rem;
+  min-width: 400px;
 }
 
 /* CLASES */
@@ -29,4 +31,10 @@ header, footer{
 }
 .titulo,p {
   margin: 0px;
+}
+.contenido{
+  border-right: 10px solid rgb(181, 218, 224);
+}
+.contenido,.sidebar{
+  padding: 20px;
 }
