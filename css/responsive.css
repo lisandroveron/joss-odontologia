@@ -1,8 +1,16 @@
-@media screen and (max-width: 1080px){
+@media (pointer:none), (pointer:coarse){
     main{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto auto;
         grid-template-areas:    "contenido"
                                 "sidebar";
+    }
+
+    .contenido{
+        border-right: none;
+        border-bottom: 10px solid rgb(181, 218, 224);
+    }
+    footer p{
+        font-size: 3rem;
     }
 }
