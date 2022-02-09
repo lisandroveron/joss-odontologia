@@ -2,39 +2,51 @@
 color: rgb(181, 218, 224);   Celeste
 */
 
-/* BODY ocupe toda la pantalla */
+/* Para que BODY ocupe toda la pantalla */
 html,body{
   height: 100%;
 }
 
 body {
+  background-color: rgb(52, 152, 219);
   margin-left: auto;
   margin-right: auto;
 }
 main{
-  background-color: white;
   width: 95%;
-  max-width: 1500px;
-  margin: 10px auto 0px;
+  max-width: 1000px;
+  margin: 10px auto;
 }
 header,.logo{
-  height: 6rem;
+  height: 5rem;
 }
 footer p{
   font-size: 1.5rem;
 }
 header,footer,body{
-background-color: rgb(181, 218, 224);
 min-width: 420px;
 }
 
 /* CLASES */
-.titulo,p {
+.card h2,p{
   margin: 0px;
 }
-.contenido{
-  border-right: 10px solid rgb(181, 218, 224);
+.card{
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
-.contenido,.sidebar{
-  padding: 20px;
+.sidebar{
+  margin-left: 10px;
+  max-width: 250px;
 }
+.sidebar h2{
+  text-align: center;
+}
+.sidebar p{
+  text-indent: 30px;
+}
+/* .contenido,.sidebar{
+  background-color: rgb(167, 210, 218);
+} */

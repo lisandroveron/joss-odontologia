@@ -6,11 +6,22 @@
                                 "sidebar";
     }
 
-    .contenido{
-        border-right: none;
-        border-bottom: 10px solid rgb(181, 218, 224);
-    }
     footer p{
         font-size: 3rem;
+    }
+    header{
+        height: 6rem;
+        font-size: 1.5rem;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .sidebar{
+        margin-left: initial;
+        margin-top: 10px;
+        max-width: initial;
+    }
+    .sidebar .card{
+        font-size: inherit;
     }
 }
