@@ -26,13 +26,24 @@ footer p{
 header,footer,body{
 min-width: 420px;
 }
-
+p{
+  white-space: pre-line;
+}
 /* CLASES */
+.titulo{
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
 .card{
   background-color: white;
   border-radius: 10px;
   margin-bottom: 10px;
   padding: 5px;
+}
+.card p{
+  text-indent: 30px;
 }
 .card h2,p{
   margin: 0px 0px 4px;
@@ -49,7 +60,4 @@ min-width: 420px;
 }
 .sidebar h2{
   text-align: center;
-}
-.sidebar p{
-  text-indent: 30px;
 }
