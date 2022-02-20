@@ -20,9 +20,6 @@ main{
 header,.logo{
   height: 5rem;
 }
-footer p{
-  font-size: 1.5rem;
-}
 header,footer,body{
 min-width: 420px;
 }
@@ -30,7 +27,7 @@ p{
   white-space: pre-line;
 }
 /* CLASES */
-.titulo{
+.title{
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
@@ -42,13 +39,14 @@ p{
   margin-bottom: 10px;
   padding: 5px;
 }
-.card p{
+.card__text{
   text-indent: 30px;
 }
-.card h2,p{
+.card__title,.card__text{
   margin: 0px 0px 4px;
+  font-weight: normal;
 }
-.card a{
+.card__linkToPost{
   display: block;
   text-align: center;
   text-decoration: none;
@@ -58,6 +56,9 @@ p{
   margin-left: 10px;
   max-width: 250px;
 }
-.sidebar h2{
+.sidebar .card__title{
   text-align: center;
+}
+.footer__text{
+  font-size: 1.5rem;
 }

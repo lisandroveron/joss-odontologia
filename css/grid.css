@@ -12,27 +12,27 @@ header{
 }
 main{
     display: grid;
-    grid-template-areas: "contenido contenido sidebar";
+    grid-template-areas: "content content sidebar";
     grid-area: main;
 }
 footer{
     display: grid;
     grid-column: footer;
 }
-header,footer,.logo-nombre{
+header,footer,.logo-name{
     justify-items: center;
     align-items: center;
 }
 
 /*    CLASES    */
-.logo-nombre{
+.logo-name{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     grid-template-areas: "logo titulo";
 }
-.contenido{
-    grid-area: contenido;
+.content{
+    grid-area: content;
 }
 .sidebar{
     grid-area: sidebar;
