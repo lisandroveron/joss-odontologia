@@ -6,20 +6,20 @@
                                 "sidebar";
     }
     html{
-        font-size: 48px;
-    }
-    footer p{
-        font-size: 3rem;
+        font-size: 32px;
     }
     header{
         height: 6rem;
     }
+    footer p{
+    font-size: 3rem;
+    }
+
     .card{
         margin-bottom: 20px;
     }
     .sidebar{
         margin-left: initial;
-        margin-top: 10px;
         max-width: initial;
     }
     .sidebar .card{
