@@ -5,13 +5,14 @@
         grid-template-areas:    "content"
                                 "sidebar";
     }
-
+    html{
+        font-size: 48px;
+    }
     footer p{
         font-size: 3rem;
     }
     header{
         height: 6rem;
-        font-size: 1.5rem;
     }
     .card{
         margin-bottom: 20px;
