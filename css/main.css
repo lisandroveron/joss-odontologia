@@ -35,22 +35,30 @@ p{
 }
 .card{
   background-color: white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin-bottom: 10px;
-  padding: 5px;
+  padding: 0.6rem;
+}
+.card__postTitle{
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+.card__subtitle{
+  margin: 1rem 0px;
 }
 .card__text{
   text-indent: 30px;
-}
-.card__title,.card__text{
-  margin: 0px 0px 4px;
-  font-weight: normal;
 }
 .card__linkToPost{
   display: block;
   text-align: center;
   text-decoration: none;
   color: blue;
+}
+.card__title,.card__postTitle,.card__text{
+  margin: 0px 0px 0.25rem;
+  font-weight: normal;
 }
 .sidebar{
   margin-left: 10px;
