@@ -13,7 +13,8 @@ header{
 }
 main{
     display: grid;
-    grid-template-areas: "content content sidebar";
+    grid-template-areas: "content"
+                         "sidebar";
     grid-area: main;
     gap: 10px;
 }

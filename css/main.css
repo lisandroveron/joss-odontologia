@@ -37,7 +37,6 @@ p{
 }
 .card{
   background-color: white;
-  /* margin-bottom: 10px; */
   padding: 0.6rem;
 }
 .card__postTitle{
@@ -67,8 +66,7 @@ p{
   font-weight: normal;
 }
 .sidebar{
-  /* margin-left: 10px; */
-  max-width: 250px;
+  width: auto;
 }
 .sidebar .card__title{
   text-align: center;
